@@ -1,0 +1,12 @@
+site_name: STB 使用教程
+pages:
+- Home: index.md
+- 开始使用: getting-started.md
+- 教程: tutorial.md
+- 高级技巧: advenced.md
+- 推荐模块: recommend.md
+- 手机应用打包帮助: cordova.md
+- 版本历史: release.md
+- 更多: moreinfo.md
+- 联系我们: contact.md
+theme: readthedocs
