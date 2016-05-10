@@ -45,21 +45,24 @@ baseurl
 #mirrorlist 
 ```
 ###**3.安装依赖**
-sudo yum install autoconf                     --成功
-sudo yum install autoconf-archive             ------失败
-sudo yum install automake                     ---成功
-sudo yum install curl-devel             --成功
-sudo yum install erlang-asn1            --成功 14B版本
-sudo yum install erlang-erts           --成功
-sudo yum install erlang-eunit           --成功
-sudo yum install erlang-os_mon          --成功
-sudo yum install erlang-xmerl           --成功
-sudo yum install help2man               --成功
-sudo yum install js-devel               --成功 1.7.0版本
-sudo yum install libicu-devel           --成功
-sudo yum install libtool                --成功
-sudo yum install perl-Test-Harness      --成功
 
+```bash
+sudo yum install autoconf                     --成功  
+sudo yum install autoconf-archive             ------失败  
+sudo yum install automake                     ---成功  
+sudo yum install curl-devel             --成功  
+sudo yum install erlang-asn1            --成功 14B版本  
+sudo yum install erlang-erts           --成功  
+sudo yum install erlang-eunit           --成功  
+sudo yum install erlang-os_mon          --成功  
+sudo yum install erlang-xmerl           --成功  
+sudo yum install help2man               --成功
+sudo yum install js-devel               --成功 1.7.0版本  
+sudo yum install libicu-devel           --成功  
+sudo yum install libtool                --成功  
+sudo yum install perl-Test-Harness      --成功 
+``` 
+ 
 官网下载couchdb 1.6.1
 http://www.apache.org/dyn/closer.cgi?path=/couchdb/source/1.6.1/apache-couchdb-1.6.1.tar.gz
 
