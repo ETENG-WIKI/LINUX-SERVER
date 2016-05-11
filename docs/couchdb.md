@@ -4,13 +4,18 @@
 
 
 ceteos 6.2  64位安装couchdb过程
-
+```
 yum install lrzsz 
-
+yum install gcc
+yum install gcc-c++
+```
 进入存放源配置的文件夹
+```
 cd /etc/yum.repos.d
+```
 
 ###**1.添加yum源epel支持,选择其中的一个.**
+
 Install EPEL Repository
 
 Install EPEL yum repository in your system, if not have already installed using one of below links.
@@ -106,10 +111,12 @@ chmod 0770 /usr/local/var/log/couchdb
 chmod 0770 /usr/local/var/run/couchdb
 ```
 ###10.修改配置
+```
 [root@npm_private ~]#vi /usr/local/etc/couchdb/local.ini
 [httpd]
 ;port = 5984
 ;bind_address = 127.0.0.1
+```
 ###11.启动
 ```
 /usr/local/etc/rc.d/couchdb start
@@ -146,5 +153,3 @@ http://ektorp.org/
 
 
 
-yum install gcc
-yum install gcc-c++
