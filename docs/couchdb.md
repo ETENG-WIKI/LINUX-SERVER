@@ -46,7 +46,7 @@ baseurl
 ```
 ###**3.安装依赖**
 
-```bash
+```
 sudo yum install autoconf                     --成功  
 sudo yum install autoconf-archive             ------失败  
 sudo yum install automake                     ---成功  
@@ -119,19 +119,27 @@ http://127.0.0.1:5984/_utils/index.html
 成功访问管理界面安装成功.
 
 ###安装参考文献
-http://docs.couchdb.org/en/1.6.1/install/unix.html  官网
-http://tecadmin.net/how-to-install-apache-couchdb-on-centosrhel-56/  
+http://docs.couchdb.org/en/1.6.1/install/unix.html  官网  
+
+http://tecadmin.net/how-to-install-apache-couchdb-on-centosrhel-56/ 
+
 http://my.oschina.net/shanhe/blog/296078#OSC_h2_2
+
 http://blog.163.com/java_hxy/blog/static/1659024232014920101954825/
 
 ###couchdb简介
+
 http://my.oschina.net/u/811958/blog/368640   couchdb简介
+
 http://my.oschina.net/u/811958/blog/368642    couchdb简介
+
 http://my.oschina.net/u/811958/blog/368656    couchdb文档
+
 http://my.oschina.net/u/811958/blog/368661    couchdb视图
 
 
 ###couchdb java 连接框架
+
 http://ektorp.org/
 
 
