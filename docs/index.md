@@ -4,6 +4,8 @@
 
 # 主要包含
 * [couchDB安装](docs/couchdb.md)
+* [pouchdb 和couchdb 构建离线应用](docs/pouchdb.md)
+* [mysql 与 mongodb 对比](docs/mongodb.md)
 * [更多](docs/moreinfo.md)
 * [联系我们](docs/contact.md)
 
