@@ -26,7 +26,7 @@ http://colobu.com/2014/10/09/gitbook-quickstart
 
 安装gitbook
 
-	npm install gitbook -g
+	npm install gitbook-cli -g
 
 启动代理服务
 
